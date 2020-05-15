@@ -1,4 +1,4 @@
-# 查询VPC终端节点接口版本列表<a name="ZH-CN_TOPIC_0178993258"></a>
+# 查询VPC终端节点接口版本列表<a name="vpcep_06_0101"></a>
 
 ## 功能介绍<a name="section911804819271"></a>
 
@@ -78,14 +78,14 @@ GET /
     </td>
     <td class="cellrowborder" valign="top" width="27.12%" headers="mcps1.2.4.1.2 "><p id="p914923015352"><a name="p914923015352"></a><a name="p914923015352"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="54.26%" headers="mcps1.2.4.1.3 "><p id="p214923015359"><a name="p214923015359"></a><a name="p214923015359"></a>支持的最大微版本号。若该版本API不支持微版本，则为空。</p>
+    <td class="cellrowborder" valign="top" width="54.26%" headers="mcps1.2.4.1.3 "><p id="p214923015359"><a name="p214923015359"></a><a name="p214923015359"></a>支持的版本号。</p>
     </td>
     </tr>
     <tr id="row138921150194"><td class="cellrowborder" valign="top" width="18.62%" headers="mcps1.2.4.1.1 "><p id="p837715239193"><a name="p837715239193"></a><a name="p837715239193"></a>min_version</p>
     </td>
     <td class="cellrowborder" valign="top" width="27.12%" headers="mcps1.2.4.1.2 "><p id="p193771823181917"><a name="p193771823181917"></a><a name="p193771823181917"></a>String</p>
     </td>
-    <td class="cellrowborder" valign="top" width="54.26%" headers="mcps1.2.4.1.3 "><p id="p378134613518"><a name="p378134613518"></a><a name="p378134613518"></a>支持的最小微版本号。若该版本API不支持微版本，则为空。</p>
+    <td class="cellrowborder" valign="top" width="54.26%" headers="mcps1.2.4.1.3 "><p id="p378134613518"><a name="p378134613518"></a><a name="p378134613518"></a>支持的微版本号。若该版本API不支持微版本，则为空。</p>
     </td>
     </tr>
     <tr id="row101495301354"><td class="cellrowborder" valign="top" width="18.62%" headers="mcps1.2.4.1.1 "><p id="p18149173013518"><a name="p18149173013518"></a><a name="p18149173013518"></a>links</p>
