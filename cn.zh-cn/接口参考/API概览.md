@@ -36,6 +36,11 @@ VPC终端节点提供的具体API如[表1](#zh-cn_topic_0178454981_zh-cn_topic_0
 <td class="cellrowborder" valign="top" width="73.75%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0178454981_p293212340215"><a name="zh-cn_topic_0178454981_p293212340215"></a><a name="zh-cn_topic_0178454981_p293212340215"></a>VPC终端节点资源配额查询接口，支持查询VPC终端节点的终端节点服务和终端节点资源的配额。</p>
 </td>
 </tr>
+<tr id="row12218551184513"><td class="cellrowborder" valign="top" width="26.25%" headers="mcps1.2.3.1.1 "><p id="p162190513457"><a name="p162190513457"></a><a name="p162190513457"></a>TAG接口</p>
+</td>
+<td class="cellrowborder" valign="top" width="73.75%" headers="mcps1.2.3.1.2 "><p id="p1721915124510"><a name="p1721915124510"></a><a name="p1721915124510"></a>VPC终端节点的标签管理接口，支持查询资源实例、批量添加或删除资源标签以及查询资源标签。</p>
+</td>
+</tr>
 </tbody>
 </table>
 
