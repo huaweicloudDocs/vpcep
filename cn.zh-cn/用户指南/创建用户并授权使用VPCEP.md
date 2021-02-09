@@ -1,12 +1,12 @@
 # 创建用户并授权使用VPCEP<a name="vpcep_ug_0003"></a>
 
-如果您需要对您所拥有的VPCEP进行精细的权限管理，您可以使用[统一身份认证服务](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)（Identity and Access Management，简称IAM），通过IAM，您可以：
+如果您需要对您所拥有的VPCEP进行精细的权限管理，您可以使用[统一身份认证服务](https://support.huaweicloud.com/productdesc-iam/iam_01_0026.html)（Identity and Access Management，简称IAM），通过IAM，您可以：
 
--   根据企业的业务组织，在您的华为云账号中，给企业中不同职能部门的员工创建IAM用户，让员工拥有唯一安全凭证，并使用ECS资源。
+-   根据企业的业务组织，在您的华为云帐号中，给企业中不同职能部门的员工创建IAM用户，让员工拥有唯一安全凭证，并使用VPCEP资源。
 -   根据企业用户的职能，设置不同的访问权限，以达到用户之间的权限隔离。
--   将ECS资源委托给更专业、高效的其他华为云账号或者云服务，这些账号或者云服务可以根据权限进行代运维。
+-   将VPCEP资源委托给更专业、高效的其他华为云帐号或者云服务，这些帐号或者云服务可以根据权限进行代运维。
 
-如果华为云账号已经能满足您的要求，不需要创建独立的IAM用户，您可以跳过本章节，不影响您使用VPCEP服务的其它功能。
+如果华为云帐号已经能满足您的要求，不需要创建独立的IAM用户，您可以跳过本章节，不影响您使用VPCEP服务的其它功能。
 
 本章节为您介绍对用户授权的方法，操作流程如[图1](#zh-cn_topic_0173481716_zh-cn_topic_0172268189_fig12481104618719)所示。
 
@@ -17,7 +17,7 @@
 ## 示例流程<a name="section1534151814384"></a>
 
 **图 1**  给用户授权VPCEP权限流程<a name="zh-cn_topic_0173481716_zh-cn_topic_0172268189_fig12481104618719"></a>  
-![](figures/给用户授权VPCEP权限流程.jpg "给用户授权VPCEP权限流程")
+![](figures/给用户授权VPCEP权限流程.png "给用户授权VPCEP权限流程")
 
 1.  <a name="zh-cn_topic_0173481716_zh-cn_topic_0172268189_li10269636890"></a>[创建用户组并授权](https://support.huaweicloud.com/usermanual-iam/iam_03_0001.html)
 

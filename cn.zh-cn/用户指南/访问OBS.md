@@ -4,6 +4,9 @@
 
 VPN、云专线线下节点通过终端节点高速访问OBS。
 
+>![](public_sys-resources/icon-note.gif) **说明：** 
+>仅“拉美-墨西哥城一”、“拉美-圣保罗一”和“拉美-圣地亚哥”区域支持将OBS配置为终端节点服务，因此本场景仅适用于这些区域。
+
 ## 操作前提<a name="section4151131713"></a>
 
 -   VPN连接的本端子网需包含OBS的网段100.125.0.0/16
@@ -14,7 +17,7 @@ VPN、云专线线下节点通过终端节点高速访问OBS。
 1.  在管理控制台左上角单击![](figures/icon-region.png)图标，选择区域（以华东-上海一为例）和项目。
 2.  创建VPN网关、VPN连接连通线下节点和VPC。
 3.  单击“服务列表”中的“网络 \> VPC终端节点”，进入终端节点页面。
-4.  在左侧导航栏选择“VPC 终端节点 \> 终端节点”。
+4.  在左侧导航栏选择“VPC终端节点 \> 终端节点”。
 5.  <a name="li145571928161519"></a>在终端节点界面单击“购买终端节点”，创建连接DNS服务的终端节点。
 6.  选择“云服务 \> com.myhuaweicloud.cn-east-3.dns”。
 7.  选择“创建内网域名”。虚拟私有云和子网选择VPN或专线接入的云内VPC ，配置参数如[图1](#fig9987546115420)所示。
@@ -49,9 +52,9 @@ VPN、云专线线下节点通过终端节点高速访问OBS。
     };
     ```
 
-    >![](public_sys-resources/icon-note.gif) **说明：**   
-    >-   线下若无DNS服务器，需要通过增加DNS终端节点IP地址到线下节点的/etc/resolv.conf文件中。  
-    >-   xx.xx.xx.xx为步骤[9](#li688862223218)中的节点IP。  
+    >![](public_sys-resources/icon-note.gif) **说明：** 
+    >-   线下若无DNS服务器，需要通过增加DNS终端节点IP地址到线下节点的/etc/resolv.conf文件中。
+    >-   xx.xx.xx.xx为步骤[9](#li688862223218)中的节点IP。
 
 11. 配置线下节点到专线网关或VPN网关的DNS路由。
 
@@ -59,14 +62,14 @@ VPN、云专线线下节点通过终端节点高速访问OBS。
 
     route -p add xx.xx.xx.xx mask 255.255.255.255 xxx.xxx.xxx.xxx
 
-    >![](public_sys-resources/icon-note.gif) **说明：**   
-    >-   xx.xx.xx.xx为步骤[9](#li688862223218)中的节点IP。  
-    >-   xxx.xxx.xxx.xxx为线下专线网关或VPN网关的IP地址。  
+    >![](public_sys-resources/icon-note.gif) **说明：** 
+    >-   xx.xx.xx.xx为步骤[9](#li688862223218)中的节点IP。
+    >-   xxx.xxx.xxx.xxx为线下专线网关或VPN网关的IP地址。
 
 12. 参考步骤[5](#li145571928161519)到[9](#li688862223218)，创建连接OBS服务的终端节点。
 
-    >![](public_sys-resources/icon-note.gif) **说明：**   
-    >线下节点只能访问终端节点所在区域对应的OBS域名地址。  
+    >![](public_sys-resources/icon-note.gif) **说明：** 
+    >线下节点只能访问终端节点所在区域对应的OBS域名地址。
 
 13. 配置线下节点到专线网关或VPN网关的OBS路由。
 
@@ -78,7 +81,7 @@ VPN、云专线线下节点通过终端节点高速访问OBS。
     route -p add 100.125.0.0 mask 255.255.0.0 xxx.xxx.xxx.xxx
     ```
 
-    >![](public_sys-resources/icon-note.gif) **说明：**   
-    >如果线下节点和线下专线网关或VPN网关网络不通，需要预先打通之间的网络。  
+    >![](public_sys-resources/icon-note.gif) **说明：** 
+    >如果线下节点和线下专线网关或VPN网关网络不通，需要预先打通之间的网络。
 
 
