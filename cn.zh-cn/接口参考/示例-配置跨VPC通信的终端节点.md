@@ -1,4 +1,4 @@
-# 快速入门<a name="vpcep_04_0000"></a>
+# 示例：配置跨VPC通信的终端节点<a name="vpcep_04_0000"></a>
 
 ## 场景描述<a name="zh-cn_topic_0178456506_zh-cn_topic_0173706811_zh-cn_topic_0171265864_section10781336"></a>
 
@@ -37,7 +37,7 @@
              { 
                "client_port":8081,
                "server_port":80,
-               "protocol":"UDP"
+               "protocol":"TCP"
              }
             ]
 } 

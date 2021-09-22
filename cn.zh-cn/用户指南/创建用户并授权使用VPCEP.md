@@ -1,6 +1,6 @@
 # 创建用户并授权使用VPCEP<a name="vpcep_ug_0003"></a>
 
-如果您需要对您所拥有的VPCEP进行精细的权限管理，您可以使用[统一身份认证服务](https://support.huaweicloud.com/productdesc-iam/iam_01_0026.html)（Identity and Access Management，简称IAM），通过IAM，您可以：
+如果您需要对您所拥有的VPCEP进行精细的权限管理，您可以使用[统一身份认证服务](https://support.huaweicloud.com/usermanual-iam/iam_01_0001.html)（Identity and Access Management，简称IAM），通过IAM，您可以：
 
 -   根据企业的业务组织，在您的华为云帐号中，给企业中不同职能部门的员工创建IAM用户，让员工拥有唯一安全凭证，并使用VPCEP资源。
 -   根据企业用户的职能，设置不同的访问权限，以达到用户之间的权限隔离。
@@ -12,7 +12,7 @@
 
 ## 前提条件<a name="section144668716345"></a>
 
-给用户组授权之前，请您了解用户组可以添加的VPCEP权限，并结合实际需求进行选择，VPCEP支持的系统权限，请参见[VPCEP系统权限](https://support.huaweicloud.com/productdesc-vpcep/vpcep_pd_0001.html)。若您需要对除VPCEP之外的其它服务授权，IAM支持服务的所有权限请参见[权限策略](https://support.huaweicloud.com/permissions/policy_list.html?product=vpcep)。
+给用户组授权之前，请您了解用户组可以添加的VPCEP权限，并结合实际需求进行选择，VPCEP支持的系统权限，请参见[VPCEP系统权限](https://support.huaweicloud.com/productdesc-vpcep/vpcep_pd_0001.html)。若您需要对除VPCEP之外的其它服务授权，IAM支持服务的所有权限请参见[系统权限](https://support.huaweicloud.com/usermanual-permissions/iam_01_0001.html)权限集。
 
 ## 示例流程<a name="section1534151814384"></a>
 
