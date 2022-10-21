@@ -12,7 +12,7 @@
 
 ## 前提条件<a name="section144668716345"></a>
 
-给用户组授权之前，请您了解用户组可以添加的VPCEP权限，并结合实际需求进行选择，VPCEP支持的系统权限，请参见[VPCEP系统权限](https://support.huaweicloud.com/productdesc-vpcep/vpcep_pd_0001.html)。若您需要对除VPCEP之外的其它服务授权，IAM支持服务的所有权限请参见[系统权限](https://support.huaweicloud.com/usermanual-permissions/iam_01_0001.html)权限集。
+给用户组授权之前，请您了解用户组可以添加的VPCEP权限，并结合实际需求进行选择，VPCEP支持的系统权限，请参见[VPCEP系统权限](https://support.huaweicloud.com/productdesc-vpcep/vpcep_pd_0001.html)。若您需要对除VPCEP之外的其它服务授权，IAM支持服务的所有权限请参见[系统权限](https://support.huaweicloud.com/usermanual-permissions/iam_01_0001.html)。
 
 ## 示例流程<a name="section1534151814384"></a>
 

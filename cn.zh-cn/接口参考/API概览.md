@@ -22,13 +22,13 @@ VPC终端节点提供的具体API如[表1](#zh-cn_topic_0178454981_zh-cn_topic_0
 </tr>
 <tr id="zh-cn_topic_0178454981_zh-cn_topic_0173706804_row1227932183218"><td class="cellrowborder" valign="top" width="26.25%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0178454981_zh-cn_topic_0173706804_p11201229163219"><a name="zh-cn_topic_0178454981_zh-cn_topic_0173706804_p11201229163219"></a><a name="zh-cn_topic_0178454981_zh-cn_topic_0173706804_p11201229163219"></a>终端节点服务接口</p>
 </td>
-<td class="cellrowborder" valign="top" width="73.75%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0178454981_zh-cn_topic_0173706804_p1279521143211"><a name="zh-cn_topic_0178454981_zh-cn_topic_0173706804_p1279521143211"></a><a name="zh-cn_topic_0178454981_zh-cn_topic_0173706804_p1279521143211"></a>终端节点服务接口，支持创建、删除、修改、查询、查询列表、查询白名单规则、添加或删除白名单规则、查询连接的终端节点、接受或拒绝终端节点等。</p>
+<td class="cellrowborder" valign="top" width="73.75%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0178454981_zh-cn_topic_0173706804_p1279521143211"><a name="zh-cn_topic_0178454981_zh-cn_topic_0173706804_p1279521143211"></a><a name="zh-cn_topic_0178454981_zh-cn_topic_0173706804_p1279521143211"></a>终端节点服务接口，支持创建、修改、查询、删除终端节点服务、查询列表、查询白名单规则、添加或删除白名单规则、查询连接的终端节点、接受或拒绝终端节点等。</p>
 <p id="zh-cn_topic_0178454981_zh-cn_topic_0173706804_p11279162110325"><a name="zh-cn_topic_0178454981_zh-cn_topic_0173706804_p11279162110325"></a><a name="zh-cn_topic_0178454981_zh-cn_topic_0173706804_p11279162110325"></a>通过这些接口，您可以管理终端节点服务、根据自身业务状况设置规则，来向终端节点提供服务。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0178454981_zh-cn_topic_0173706804_row227972163219"><td class="cellrowborder" valign="top" width="26.25%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0178454981_zh-cn_topic_0173706804_p2686535123212"><a name="zh-cn_topic_0178454981_zh-cn_topic_0173706804_p2686535123212"></a><a name="zh-cn_topic_0178454981_zh-cn_topic_0173706804_p2686535123212"></a>终端节点接口</p>
 </td>
-<td class="cellrowborder" valign="top" width="73.75%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0178454981_zh-cn_topic_0173706804_p103673385325"><a name="zh-cn_topic_0178454981_zh-cn_topic_0173706804_p103673385325"></a><a name="zh-cn_topic_0178454981_zh-cn_topic_0173706804_p103673385325"></a>终端节点接口，包括创建、删除、查询、查询列表，通过这些接口您可以管理终端节点来使用终端节点服务所提供的服务。</p>
+<td class="cellrowborder" valign="top" width="73.75%" headers="mcps1.2.3.1.2 "><p id="zh-cn_topic_0178454981_zh-cn_topic_0173706804_p103673385325"><a name="zh-cn_topic_0178454981_zh-cn_topic_0173706804_p103673385325"></a><a name="zh-cn_topic_0178454981_zh-cn_topic_0173706804_p103673385325"></a>终端节点接口，包括创建、查询、删除终端节点、查询列表，通过这些接口您可以管理终端节点来使用终端节点服务所提供的服务。</p>
 </td>
 </tr>
 <tr id="zh-cn_topic_0178454981_row393263416215"><td class="cellrowborder" valign="top" width="26.25%" headers="mcps1.2.3.1.1 "><p id="zh-cn_topic_0178454981_p149326341827"><a name="zh-cn_topic_0178454981_p149326341827"></a><a name="zh-cn_topic_0178454981_p149326341827"></a>资源配额接口</p>

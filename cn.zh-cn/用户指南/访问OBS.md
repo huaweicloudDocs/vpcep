@@ -5,17 +5,17 @@
 VPN、云专线线下节点通过终端节点高速访问OBS。
 
 >![](public_sys-resources/icon-note.gif) **说明：** 
->仅“拉美-墨西哥城一”、“拉美-圣保罗一”和“拉美-圣地亚哥”区域支持将OBS配置为终端节点服务，因此本场景仅适用于这些区域。
+>仅“拉美-墨西哥城一”、“拉美-圣保罗一”和“拉美-圣地亚哥”区域支持“网关”类型的OBS终端节点服务，因此本场景仅适用于这些区域。
 
 ## 前提条件<a name="section4151131713"></a>
 
 您的本地数据中心已通过VPN或者云专线与VPC连通。
 
--   VPN连接对应的需要与本地数据中心互通的VPC子网网段，需包含OBS的网段100.125.0.0/16。
+-   VPN连接对应的需要与本地数据中心互通的VPC子网网段，需要包含OBS的网段，详细请[提交工单](https://console.huaweicloud.com/ticket/?locale=zh-cn#/ticketindex/serviceTickets)或联系对象存储服务的客户经理获取。
 
     创建虚拟专用网络，请参考[创建VPN网关](https://support.huaweicloud.com/qs-vpn/zh-cn_topic_0133627788.html)。
 
--   专线虚拟网关允许访问的VPC子网网段需包含OBS的网段100.125.0.0/16。
+-   专线虚拟网关允许访问的VPC子网网段，需要包含OBS的网段，详细请[提交工单](https://console.huaweicloud.com/ticket/?locale=zh-cn#/ticketindex/serviceTickets)或联系对象存储服务的客户经理获取。
 
     开通云专线，请参考[开通云专线](https://support.huaweicloud.com/qs-dc/zh-cn_topic_0145790541.html)。
 
@@ -27,7 +27,7 @@ VPN、云专线线下节点通过终端节点高速访问OBS。
 3.  在左侧导航栏，选择“VPC终端节点 \> 终端节点”。
 4.  <a name="li145571928161519"></a>在终端节点界面，单击“购买终端节点”，创建连接DNS服务的终端节点。
 5.  选择“云服务 \> com.myhuaweicloud.na-mexico-1.dns”。
-6.  根据界面提示配置参数，详细如[图1](#fig9987546115420)所示。
+6.  根据界面提示配置参数。
 
     **图 1**  购买终端节点（云服务-接口型）<a name="fig9987546115420"></a>  
     ![](figures/购买终端节点（云服务-接口型）-0.png "购买终端节点（云服务-接口型）-0")
@@ -52,7 +52,7 @@ VPN、云专线线下节点通过终端节点高速访问OBS。
     以“拉美-墨西哥城一”的OBS Endpoint为例：
 
     ```
-    zone "com.myhuaweicloud.na-mexico-1.obs" {
+    zone "obs.na-mexico-1.myhuaweicloud.com" {
             type forward;
             forward only;
             forwarders{ xx.xx.xx.xx;};
